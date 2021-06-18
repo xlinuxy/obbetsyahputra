@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <h1>Heii kau ardii....</h1>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FgHoLA5mtJMA36%2Fgiphy.gif&f=1&nofb=1">
+        <h1>lu sering coli pake video gw ya!!!</h1>
+        <p>powered by ilham;)</p>
+        <button id='btn_mau' onclick='alert("UDAH KETAUAN TETEP AJA GAK MAU NGAKU WKWKWKW")'>IYA GW NGAKU</button>&nbsp;
+        <button id='btn_gamau' onclick='gamau(this)' style='position:absolute'>KAGAK PERNAH ANJIM</button>
+    </body>
+    <script>
+        function gamau(id){
+            var mau = document.getElementById('btn_mau');
+            var i = Math.floor(Math.random()*300)+1;
+            var j = Math.floor(Math.random()*100)+mau.offsetTop;
+            id.style.left = i+'px';
+            id.style.top = j+'px';
+        }
+    </script>
+</html>
